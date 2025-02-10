@@ -3,7 +3,7 @@ bcFile <- '' #barcodes.txt from SHARE-seq
 readFile <- '' #filtered.counts.csv.gz from SHARE-seq pipeline
 scQCfile <- '' #counts.csv.gz from SHARE-seq pipeline
 
-read_thresh <- 800
+read_thresh <- 500
 lib_thresh <- 500
 
 
