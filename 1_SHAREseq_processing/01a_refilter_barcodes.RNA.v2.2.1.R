@@ -1,23 +1,17 @@
 output <- ''
 genome <- '' # hg19, mm10, etc
+# output from SHARE v2 workflow
 bcFile <- '' # barcodes.txt
 readFile <- '' #filtered.counts.csv.gz
 h5file <- '' #h5 UMI counts
 qc_file <- '' #counts.csv.gz
 
 ncores <- 4
-read_thresh <- 300
-umi_thresh <- 500
-gtfPATH <- '/mnt/users/snagaraja/ref/gtf/'
+read_thresh <- 300 # 300 for mouse colitis tissue, mouse adenoma tissue and human organoids, 500 for mouse organoids 
+umi_thresh <- 500 # 500 for mouse colitis tissue, mouse adenoma tissue and human organoids, 1000 for mouse organoids 
+gtfPATH <- '../ref/'
 
-### VERSION CONTROL
-## v2.1: reformatted to pull functions from separate file
-## v2.0: adjusted for SHARE-seq V4.12 pipeline output
-
-myPath <- .libPaths()
-myPath <- c(myPath,'/mnt/bin/R/library/')
-.libPaths(myPath)
-source('/home/snagaraja/comp_tools/scRNA_scATAC_scripts/function_code/barcode_filtering.v1.1.R')
+source('../tools/barcode_filtering.v1.1.R')
 library(pbmcapply)
 library(hdf5r)
 
