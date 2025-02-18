@@ -1,20 +1,14 @@
 output <- '' # prefix for output
-bcFile <- '' #barcodes.txt from SHARE-seq
-readFile <- '' #filtered.counts.csv.gz from SHARE-seq pipeline
-scQCfile <- '' #counts.csv.gz from SHARE-seq pipeline
+# output from SHARE v2 workflow
+bcFile <- '' #barcodes.txt
+readFile <- '' #filtered.counts.csv.gz
+scQCfile <- '' #counts.csv.gz
 
-read_thresh <- 500
-lib_thresh <- 500
+read_thresh <- 500 # 300 for mouse colitis tissue, 500 for mouse organoids and mouse adenoma tissue, 800 for human organoids
+lib_thresh <- 500 # 500 for mouse colitis tissue, mouse adenoma tissue, mouse organoids and human organoids
 
 
-#### VERSION CONTROL
-## v2.1: reformatted to pull functions from separate file
-# v2.0: adapted for SHARE-seq V4.13 pipeline output
-
-myPath <- .libPaths()
-myPath <- c(myPath,'/mnt/bin/R/library/')
-.libPaths(myPath)
-source('/home/snagaraja/comp_tools/scRNA_scATAC_scripts/function_code/barcode_filtering.v1.1.R')
+source('../tools/barcode_filtering.v1.1.R')
 
 bc <- read.csv(bcFile,header=F)
 readCounts <- read.csv(readFile)
