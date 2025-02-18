@@ -1,5 +1,8 @@
 #!/bin/bash
 
+### Code used to call peaks on fragment files. However, peak files used for analysis in the manuscript have been uploaded to /ref/.
+### If calling peaks on your own, please see methods section for details
+
 prefix="mouse_colitis_tissue"
 fragFile="frags.list" # list of fragment files to use
 Genome="hg38"
