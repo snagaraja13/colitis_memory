@@ -2,7 +2,7 @@ output <- ''
 motif_match_file <- '' # peaks x motifs, 0 or 1 annotation for match of each motif in a givenbn peak
 unfilt_se_file <- '' # singlet filtered SummarizedExperiment from 02c_scATAC.getSinglet_cluster
 bag_file <- '' # grouping of motifs into families (see Supplemental Data), two column matrix: leader motif1,motif2,motif3...
-genome <- '' # mm10 or hg38
+genome <- '' #mm10 or hg38
 
 cores <- 4
 nBg <- 250
