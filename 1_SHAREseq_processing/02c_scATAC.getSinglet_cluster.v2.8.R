@@ -2,7 +2,7 @@ output <- '' # output prefix
 genome <- 'mm10'
 fragBed <- '' #combined fragments.tsv.gz file
 bcFile <- '' #bc_pf from 01b_refilter_barcodes.ATAC
-peakFile <- '' #fixed width and resized peaks
+peakFile <- '' #fixed width and resized peaks - see /ref/ for peaks used in manuscript
 qcFile <- '' #counts.csv.gz from SHARE V2 Workflow
 
 # both declump and doublet cell barcodes to exclude from 02a_scRNA.getSinglet_cluster
