@@ -6,7 +6,7 @@ min_read <- 5         # minimum raw sequencing reads to include a putative barco
 lv_dist_max <- 4     # max Levenshtein distance to collapse two barcodes to the same clone
 removePG <- T         # remove poly-G UMIs
 
-## options for using a mixture model to UMI number for cutoffs
+## Options for using a mixture model to find UMI number for cutoffs
 ## This was not used for analysis in this paper but can be used for more stringent clone calls for very deep datasets with high rates of clone capture
 useModel <- F         # use mixture model to call clones from barcodes
 Nfit <- 100         # number of iterations for mixture model
