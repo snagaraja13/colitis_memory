@@ -38,3 +38,6 @@ for (samp in uniq_samp){
 }
 ps_raw <- do.call('cbind',ps_list)
 saveRDS(ps_raw,paste0(output,'.tumor_pseudobulk.raw.rds'))
+
+## this pseudobulk matrix can now be scored for AP-1/P20 program expression using same code as single cells
+## a t-test was then run on colitis recovered vs control tumors
