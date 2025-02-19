@@ -1,6 +1,5 @@
 ## This code is for differential gene expression in the in vivo memory dataset
 ## The adenoma vs stem differential was performed analogously between cell types rather than between colitis stage and control
-
 output <- ''
 raw_file <- '' # genes x cells, raw UMI counts
 meta_file <- '' # metadata file, needs columns: "barcode" for each cell barcode, "celltype" for stem_prog, etc, "replicate" for unique identifier for each mouse
