@@ -9,6 +9,9 @@ https://tinyurl.com/nagaraja-buenrostro-2025
 For processing of raw fastq files and alignment, see SHARE-seq V2 pipeline:
 https://github.com/masai1116/SHARE-seq-alignmentV2/
 
+For footprinting and PRINT related softwate:
+https://github.com/buenrostrolab/PRINT
+
 Please see tools directory for specific software and packages required. Input and output data used are included in the ref directory. Please see code comments for further instructions.
 
 Versions for key tools:  
