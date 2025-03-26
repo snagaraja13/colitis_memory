@@ -11,8 +11,8 @@ https://github.com/masai1116/SHARE-seq-alignmentV2/
 
 Please see tools directory for specific software and packages required. Input and output data used are included in the ref directory. Please see code comments for further instructions.
 
-Versions for key tools:
-macs2 2.1.2
-chromVAR 1.12.0
-BuenRTools 0.1.4
-cisTopic 0.3.0
+Versions for key tools:  
+macs2 2.1.2  
+chromVAR 1.12.0  
+BuenRTools 0.1.4  
+cisTopic 0.3.0  
