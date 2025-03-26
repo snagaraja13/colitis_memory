@@ -1,0 +1,8 @@
+-rw-rw-r-- 1 snagaraja snagaraja   97 Feb 18 14:25 gut_orgs.hs.txt
+-rw-rw-r-- 1 snagaraja snagaraja  112 Feb 18 13:39 gut_orgs.ms.txt
+-rw-rw-r-- 1 snagaraja snagaraja  134 Feb 18 13:39 gut_primary.ms.txt
+-rw-rw-r-- 1 snagaraja snagaraja 4.1M Feb 18 14:29 human_organoids.cleaned_peaks.bed
+-rw-rw-r-- 1 snagaraja snagaraja 4.3M Feb 18 14:19 mouse_adenoma_tissue.cleaned_peaks.bed
+-rw-rw-r-- 1 snagaraja snagaraja 3.0M Feb 18 14:16 mouse_colitis_tissue.cleaned_peaks.bed
+-rw-r--r-- 1 snagaraja snagaraja  20M Feb 18 14:18 mouse_colitis_tissue.motifmatch.tsv.gz
+-rw-rw-r-- 1 snagaraja snagaraja 3.7M Feb 18 14:17 mouse_organoids.cleaned_peaks.bed
