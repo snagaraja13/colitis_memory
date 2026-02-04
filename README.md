@@ -1,7 +1,7 @@
 # colitis_memory
 Code associated with the manuscript:
 Clonal memory of colitis accumulates and promotes tumor growth. Surya Nagaraja, Lety Ojeda-Miron, Ruochi Zhang, Ena Oreskovic, Conrad Hock, Yan Hu, Daniel Zeve, Karina Sharma, Roni R. Hyman, Qiming Zhang, Andrew Castillo, David T. Breault, Ömer H. Yilmaz, Jason D. Buenrostro
-in press at Nature, as of 2025-02-04
+in press at Nature, as of 2026-02-04
 
 Preprint:
 bioRxiv 2025.02.13.638099; doi: https://doi.org/10.1101/2025.02.13.638099
